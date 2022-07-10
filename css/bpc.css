@@ -1,7 +1,23 @@
 body
 {
-
+    
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(12, 4, 10);
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+}
 
+#container{
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px, solid, rgb(233, 224, 224);
+    margin: 0 auto;
+
+}
+
+#container h1{
+    font-size: 49px;
 }
