@@ -11,10 +11,10 @@ body
     font-size: 30px;
 }
 #cabecera{
-    background: rgba(227, 235, 227, 0.836) url("../Imagenes/free-abstract-background-vector.jpg");
+
+    background: rgba(227, 235, 227, 0.836) url("../Imagenes/SpBG.jpg");
     text-align: left;
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
     color: white;
     width: 100%;
@@ -26,9 +26,11 @@ body
     margin-left: 20px;
 }
 #cabecera #logo{
+
     width: 50px;
     vertical-align: middle;
     margin-left: 40px;
+
 }
 #post h1{
  text-align: center;
@@ -38,6 +40,11 @@ body
     width: 1000px;
     height: 400px;
     
+
+}
+#post p{
+    margin: 50px;
+
 }
 .neon {
     animation: neonAnim 2s alternate-reverse infinite;
