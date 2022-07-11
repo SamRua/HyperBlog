@@ -39,6 +39,16 @@ body
     height: 400px;
     
 }
+#footer{
+    background: rgb(255, 255, 255);
+    width: 100%;
+    margin: 10px;
+}
+
+#footer span{
+    font-size: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .neon {
     animation: neonAnim 2s alternate-reverse infinite;
     color: #b8d1eb;
