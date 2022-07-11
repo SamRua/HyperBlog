@@ -3,7 +3,7 @@ body
     
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    background: rgb(17, 16, 16);
     color: rgb(22, 22, 22);
 
     padding: 0;
@@ -11,10 +11,33 @@ body
     font-size: 30px;
 }
 #cabecera{
-    background: rgba(48, 151, 17, 0.76);
+    background: rgba(227, 235, 227, 0.836) url("../Imagenes/free-abstract-background-vector.jpg");
     text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     width: 100%;
+    padding: 0.2em 0 0.5em 2em;
+    margin: 0;
+    background-size: 100%;
+}
+#cabecera h1{
+    margin-left: 20px;
+}
+#cabecera #logo{
+    width: 50px;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+#post h1{
+ text-align: center;
+ color: rgb(17, 20, 20);
+}
+#post{
+    width: 1000px;
+    height: 400px;
+    
 }
 .neon {
     animation: neonAnim 2s alternate-reverse infinite;
