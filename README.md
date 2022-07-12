@@ -1,2 +1,2 @@
-# HyperBlog
+# HiperBlog
 Curso
